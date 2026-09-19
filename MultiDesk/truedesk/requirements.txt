@@ -1,0 +1,11 @@
+# 运行时依赖（Windows）
+pystray>=0.19
+Pillow>=10.0
+pywin32>=306 ; sys_platform == 'win32'
+keyboard>=0.13 ; sys_platform == 'win32'
+
+# 开发与测试
+pytest>=8.0
+
+# 打包
+pyinstaller>=6.0
